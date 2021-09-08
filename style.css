@@ -1,0 +1,39 @@
+body{
+    font-family: 'Special Elite', 'cursive';
+    background-color: #ff0000;
+background-image: -webkit-linear-gradient(180deg, #ff0000 10%, #0bfcff 24%, #000000 49%, #0bfcff 75%, #ff0000 90%);
+background-image: -moz-linear-gradient(180deg, #ff0000 10%, #0bfcff 24%, #000000 49%, #0bfcff 75%, #ff0000 90%);
+background-image: -o-linear-gradient(180deg, #ff0000 10%, #0bfcff 24%, #000000 49%, #0bfcff 75%, #ff0000 90%);
+background-image: linear-gradient(180deg, #ff0000 10%, #0bfcff 24%, #000000 49%, #0bfcff 75%, #ff0000 90%);
+
+    }
+
+.header_div{
+    background: rgb(255, 0, 0);
+    color: rgb(0, 255, 0);
+}
+.header_div p{
+    font-family: 'robot', sans-serif;
+    color: rgb(68, 0, 255);
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.main_div button{
+    font-family: 'robot', sans-serif;
+    margin-top: 30px;
+    width: 130px;
+    font-weight: bolder;
+    letter-spacing: 3px;
+}
+.copy_right_footer{
+   position: fixed;
+   color: rgb(0, 221, 255);
+   bottom: 0;
+   width: 100%;
+   font-size: 20px;
+   background-color: rgb(255, 0, 0);
+   line-height: 3;
+   text-align: center;
+   text-shadow:  5px 5px 5px  rgb(0, 0, 255);
+}

@@ -1,0 +1,39 @@
+<html>
+  <head>
+    <title>Sound Identification Web App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body>
+    <div class="col-xs-12 header_div text-center">
+    <h2>Sound controlled Animals sounds</h2>
+  </div>
+      <center>
+          <span>
+          <button class="btn btn-warning" onclick="startClassification();">START</button>
+          <h3 id="result_label">I can hear - </h3>
+          <h4 id="result_confidance">Accuracy=</h4>
+          <img src="dog1.jpg" id="dog1" width="300" height="300"> 
+          <br><br>
+          <img src="cat2.png" id="cat2" width="300" height="300"> 
+          <br><br>
+          <img src="lion3.jpg" id="lion3" width="300" height="300"> 
+          <br><br>
+          <img src="ears4.jpg" id="ears4" width="300" height="300"> 
+        </span>
+              </center>
+              </div>
+              <div>
+              <br>
+                |Developed by Arunangshu|
+                <img src="http://images.squarespace-cdn.com/content/v1/564ba61ae4b0f434d2ccd784/1447798426424-5JW9UV51MP10C1QXB6UA/am-logo.png" class="logo" height="50px" width="50px">
+                <br>
+              </div>
+<script src="main.js"></script>
+  </body>
+</html>
